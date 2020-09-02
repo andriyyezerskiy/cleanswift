@@ -8,13 +8,13 @@ This is a CleanSwift template modified from the original, to accomodate common p
 1. From this repository:
 
     To install the Clean Swift Xcode templates,run:
-    ```bash
-    $ make install_templates
+    ```
+    make install_templates
     ```
 
     To uninstall the Clean Swift Xcode templates, run:
-    ```bash
-    $ make uninstall_templates
+    ```
+    make uninstall_templates
     ```
 
 ## References
