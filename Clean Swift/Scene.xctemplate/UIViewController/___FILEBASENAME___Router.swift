@@ -15,7 +15,7 @@ protocol ___VARIABLE_sceneName___RouterOutputsToViewController: class {
 class ___VARIABLE_sceneName___Router: NSObject {
     
     // MARK: - Output Delegate
-    var outputsToViewController: ___VARIABLE_sceneName___RouterOutputsToViewController?
+    weak var outputsToViewController: ___VARIABLE_sceneName___RouterOutputsToViewController?
 
     // MARK: - Properties
     weak var viewController: ___VARIABLE_sceneName___ViewController?

@@ -19,8 +19,8 @@ protocol ___VARIABLE_sceneName___PresenterOutputsPropertiesToViewController: cla
 class ___VARIABLE_sceneName___Presenter {
 
     // MARK: - Output Delegate
-    var outputsMethodsToViewController: ___VARIABLE_sceneName___PresenterOutputsMethodsToViewController?
-    var outputsPropertiesToViewController: ___VARIABLE_sceneName___PresenterOutputsPropertiesToViewController?
+    weak var outputsMethodsToViewController: ___VARIABLE_sceneName___PresenterOutputsMethodsToViewController?
+    weak var outputsPropertiesToViewController: ___VARIABLE_sceneName___PresenterOutputsPropertiesToViewController?
 }
 
 // MARK: - Interactor Output

@@ -15,7 +15,7 @@ protocol ___VARIABLE_sceneName___WorkerOutputsToInteractor: class {
 class ___VARIABLE_sceneName___Worker {
 
     // MARK: - Output Delegate
-    var outputsToInteractor: ___VARIABLE_sceneName___WorkerOutputsToInteractor?
+    weak var outputsToInteractor: ___VARIABLE_sceneName___WorkerOutputsToInteractor?
     
     // MARK: - Methods
     
